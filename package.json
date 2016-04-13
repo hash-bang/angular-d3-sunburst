@@ -1,0 +1,25 @@
+{
+  "name": "angular-d3-sunburst",
+  "version": "1.0.0",
+  "description": "D3 Sunburst diagrams for AngularJS",
+  "main": "angular-d3-sunburst.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hash-bang/angular-d3-sunburst.git"
+  },
+  "keywords": [
+    "angular",
+    "d3",
+    "diagram",
+    "graph",
+    "sunburst",
+    "tree",
+    "ui"
+  ],
+  "author": "Matt Carter <m@ttcarter.com> (https://github.com/hash-bang)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hash-bang/angular-d3-sunburst/issues"
+  },
+  "homepage": "https://github.com/hash-bang/angular-d3-sunburst#readme"
+}
