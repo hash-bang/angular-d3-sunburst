@@ -1,10 +1,13 @@
 .d3-sunburst {
-	
+
 }
 
-.d3-sunburst circle,
+.d3-sunburst circle {
+	cursor: zoom-out;
+}
+
 .d3-sunburst path {
-	cursor: pointer;
+	cursor: zoom-in;
 }
 
 .d3-sunburst circle {
@@ -12,7 +15,7 @@
 	pointer-events: all;
 }
 
-.d3-sunburst .d3-tooltip {
+.d3-tooltip div {
 	background-color: white;
 	padding: 3px 5px;
 	border: 1px solid black;
