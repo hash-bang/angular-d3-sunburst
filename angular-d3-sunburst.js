@@ -63,8 +63,8 @@ angular.module('angular-d3-sunburst', [])
 
 			$scope.mouseMoveArc = function(d) {
 				return $scope.tooltip ? $scope.tooltipElem
-					.style("top", (d3.event.pageY-10)+"px")
-					.style("left", (d3.event.pageX+10)+"px")
+					.style("top", (d3.event.layerY-10)+"px")
+					.style("left", (d3.event.layerX+10)+"px")
 					: false;
 			};
 			// }}}
